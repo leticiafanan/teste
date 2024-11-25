@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2019",
+    "module": "CommonJS",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@ioc:Adonis/Core/*": ["node_modules/@adonisjs/core/build/src/*"],
+      "@ioc:Adonis/*": ["node_modules/@adonisjs/*"]
+    }
+  },
+  "include": [
+    "start/**/*.ts",
+    "app/**/*.ts",
+    "config/**/*.ts",
+    "contracts/**/*.ts",
+    "providers/**/*.ts"
+  ]
+}
+
